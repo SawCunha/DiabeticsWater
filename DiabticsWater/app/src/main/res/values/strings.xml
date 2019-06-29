@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Diabétics Water</string>
+
+    <string name="msg_start_app_info">iniciando serviço com AlarmManager</string>
+    <string name="msg_start_service_on_create">Iniciando onCreate MyIntentService</string>
+    <string name="msg_start_service_on_handle_intent">Iniciando onHandleIntent MyIntentService</string>
+
+    <!-- LABEL -->
+    <string name="label_progress">Progresso</string>
+    <string name="label_message">Mensagem</string>
+    <string name="label_finished">Finalizado</string>
+
+    <!-- BTN -->
+    <string name="btn_start_service">Iniciar Serviço</string>
+    <string name="btn_stop_service">Parar Serviço</string>
+
+    <string name="btn1_description">Start foreground service</string>
+    <string name="btn1_title" >Start</string>
+    <string name="simple_service_title">Simple Service</string>
+    <string name="simple_service_desc">Simple Service from the OTest app</string>
+
+    <string name="main_create_noti2_btn">Send</string>
+
+    <string name="btnA_title">Go to Settings</string>
+    <string name="noti_channel_default">Primary Channel</string>
+    <string name="noti1_title">Notification 1 Title</string>
+    <string name="primary1_body">The content</string>
+    <string name="noti2_title">Second notification</string>
+    <string name="secondary1_body">Notification body text.</string>
+    <string name="noti_channel_second">Secondary Channel</string>
+
+    <string name="main_primary_title">Primary Channel</string>
+    <string name="main_primary_send1">Send 1</string>
+    <string name="main_primary_send2">Send 2</string>
+    <string name="main_primary_config">Go to primary settings</string>
+
+    <string name="main_secondary_title">Secondary Channel</string>
+    <string name="main_secondary_send1">Send 1</string>
+    <string name="main_secondary_send2">Send 2</string>
+    <string name="main_secondary_config">Go to secondary settings</string>
+    <string name="primary2_body">Second Notification for Primary Channel</string>
+    <string name="secondary2_body">Second Notification for Secondary Channel</string>
+    <string name="introducao">Eu vou estar aqui para te lembra das 1001 coisas que voce esquece\n, está preparado?\n
+    E sim, toda vez que você abrir o App, eu vou estar na barra de notificação te esperando para passar o dedo em mim…</string>
+    <string name="fechado">Você me fechou, que triste, mas ainda vou te notificar. kkkkkkkkkkk</string>
+</resources>

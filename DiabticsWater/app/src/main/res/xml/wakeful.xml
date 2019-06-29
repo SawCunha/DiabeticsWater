@@ -1,0 +1,3 @@
+<WakefulIntentService
+    listener="br.com.riseline.cleiton.esports.diabticswater.Job.Teste"
+    />
