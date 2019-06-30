@@ -17,9 +17,9 @@ public class NotificationOldHelper {
     public static void notification(Context context, String titulo, String mensagem){
         NotificationCompat.Builder builder=new NotificationCompat.Builder(context);
         int color=context.getResources().getColor(R.color.colorPrimary);
-        builder.setSmallIcon(R.drawable.ic_logo);
+        builder.setSmallIcon(R.drawable.ic_icone_noti);
         builder.setColor(color);
-        Bitmap mProfilePic= BitmapFactory.decodeResource(context.getResources(), R.drawable.ic_logo);
+        Bitmap mProfilePic= BitmapFactory.decodeResource(context.getResources(), R.drawable.ic_icone_noti);
         builder.setLargeIcon(mProfilePic);
         builder.setStyle(new NotificationCompat.BigTextStyle());
         builder.setContentText(mensagem);

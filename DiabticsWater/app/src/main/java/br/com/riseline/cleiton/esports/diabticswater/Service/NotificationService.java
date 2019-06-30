@@ -7,29 +7,30 @@ import android.util.Log;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Random;
 
 import br.com.riseline.cleiton.esports.diabticswater.Helper.NotificationHelper;
 import br.com.riseline.cleiton.esports.diabticswater.Helper.NotificationOldHelper;
-import br.com.riseline.cleiton.esports.diabticswater.Util.Mensagens;
+import br.com.riseline.cleiton.esports.diabticswater.R;
 
 public class NotificationService {
 
     public static void notification(Context context) {
         Log.e("TESTE","JOB FIRED");
-        int valueM = aleatorio(Mensagens.mensagem_aleatorias.size());
-        int valueT = aleatorio(Mensagens.titulos_aleatorios.size());
+        int valueM = aleatorio(getMessageSize(context));
+        int valueT = aleatorio(getTituloSize(context));
         if(android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
             NotificationHelper noti = new NotificationHelper(context);
 
-            Notification.Builder nb = noti.getNotification1(Mensagens.titulos_aleatorios.get(valueT),String.format(Mensagens.mensagem_aleatorias.get(valueM),getDateString()) );
+            Notification.Builder nb = noti.getNotification1(getTitulo(context, valueT),String.format(getMessage(context,valueM),getDateString()) );
             if (nb != null) {
                 noti.notify(new Random().nextInt(), nb);
             }
         }else{
-            NotificationOldHelper.notification(context,Mensagens.titulos_aleatorios.get(valueT),String.format(Mensagens.mensagem_aleatorias.get(valueM),getDateString()));
+            NotificationOldHelper.notification(context,getTitulo(context, valueT),String.format(getMessage(context,valueM),getDateString()));
         }
     }
 
@@ -43,6 +44,24 @@ public class NotificationService {
         Date date = new Date(Calendar.getInstance().getTimeInMillis());
         @SuppressLint("SimpleDateFormat") DateFormat fmt = new SimpleDateFormat("HH:mm");
         return fmt.format(date);
+    }
+
+    private static Integer getMessageSize(Context context){
+       return context.getResources().getStringArray(R.array.mensagem_aleatorias).length;
+    }
+
+    private static String getMessage(Context context, Integer index){
+        String[] myResArray = context.getResources().getStringArray(R.array.mensagem_aleatorias);
+        return Arrays.asList(myResArray).get(index);
+    }
+
+    private static Integer getTituloSize(Context context){
+        return context.getResources().getStringArray(R.array.titulos_aleatorios).length;
+    }
+
+    private static String getTitulo(Context context, Integer index){
+        String[] myResArray = context.getResources().getStringArray(R.array.titulos_aleatorios);
+        return Arrays.asList(myResArray).get(index);
     }
 
 }

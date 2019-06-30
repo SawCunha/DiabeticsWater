@@ -34,6 +34,7 @@ public class NotificationHelper extends ContextWrapper {
         chan1.setLockscreenVisibility(Notification.VISIBILITY_PUBLIC);
         chan1.enableVibration(true);
         chan1.setShowBadge(true);
+        chan1.enableLights(true);
         getManager().createNotificationChannel(chan1);
 
         NotificationChannel chan2 = new NotificationChannel(SECONDARY_CHANNEL,
@@ -59,7 +60,7 @@ public class NotificationHelper extends ContextWrapper {
                 .setContentText(body)
                 .setSmallIcon(getSmallIcon())
                 .setColorized(true)
-                .setLargeIcon(BitmapFactory.decodeResource(getResources(),R.drawable.ic_logo))
+                .setColor(getResources().getColor(R.color.colorAccent))
                 .setStyle(new Notification.BigTextStyle().bigText(body))
                 .setAutoCancel(true);
     }
@@ -95,7 +96,7 @@ public class NotificationHelper extends ContextWrapper {
      * @return The small icon resource id
      */
     private int getSmallIcon() {
-        return R.mipmap.ic_launcher_round;
+        return R.drawable.ic_icone_noti;
     }
 
     /**

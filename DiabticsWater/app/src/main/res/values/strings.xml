@@ -1,46 +1,71 @@
 <resources>
     <string name="app_name">Diabétics Water</string>
 
-    <string name="msg_start_app_info">iniciando serviço com AlarmManager</string>
-    <string name="msg_start_service_on_create">Iniciando onCreate MyIntentService</string>
-    <string name="msg_start_service_on_handle_intent">Iniciando onHandleIntent MyIntentService</string>
-
-    <!-- LABEL -->
-    <string name="label_progress">Progresso</string>
-    <string name="label_message">Mensagem</string>
-    <string name="label_finished">Finalizado</string>
-
-    <!-- BTN -->
-    <string name="btn_start_service">Iniciar Serviço</string>
-    <string name="btn_stop_service">Parar Serviço</string>
-
-    <string name="btn1_description">Start foreground service</string>
-    <string name="btn1_title" >Start</string>
-    <string name="simple_service_title">Simple Service</string>
-    <string name="simple_service_desc">Simple Service from the OTest app</string>
-
-    <string name="main_create_noti2_btn">Send</string>
-
-    <string name="btnA_title">Go to Settings</string>
     <string name="noti_channel_default">Primary Channel</string>
-    <string name="noti1_title">Notification 1 Title</string>
-    <string name="primary1_body">The content</string>
-    <string name="noti2_title">Second notification</string>
-    <string name="secondary1_body">Notification body text.</string>
     <string name="noti_channel_second">Secondary Channel</string>
 
-    <string name="main_primary_title">Primary Channel</string>
-    <string name="main_primary_send1">Send 1</string>
-    <string name="main_primary_send2">Send 2</string>
-    <string name="main_primary_config">Go to primary settings</string>
-
-    <string name="main_secondary_title">Secondary Channel</string>
-    <string name="main_secondary_send1">Send 1</string>
-    <string name="main_secondary_send2">Send 2</string>
-    <string name="main_secondary_config">Go to secondary settings</string>
-    <string name="primary2_body">Second Notification for Primary Channel</string>
-    <string name="secondary2_body">Second Notification for Secondary Channel</string>
     <string name="introducao">Eu vou estar aqui para te lembra das 1001 coisas que voce esquece\n, está preparado?\n
-    E sim, toda vez que você abrir o App, eu vou estar na barra de notificação te esperando para passar o dedo em mim…</string>
-    <string name="fechado">Você me fechou, que triste, mas ainda vou te notificar. kkkkkkkkkkk</string>
+    E sim, toda vez que você abrir o App,\n\neu vou estar na barra de notificação te esperando\n\n
+        para passar o dedo em mim…</string>
+    <string name="app_desenvolvido_para_lembra_nosso_amigo_rafael_de_beber_agua_idealizado_pelo_grupo_ncleiton_e_sports">App Desenvolvido para lembra nosso Amigo Rafael de beber agua, Idealizado pelo Grupo:  Cleiton E-sports</string>
+    <string name="core_sawcunha">©Core SawCunha</string>
+
+    <string-array name="titulos_aleatorios">
+        <item>Já bebeu Água Hoje?</item>
+        <item>Já bebeu Água Hoje?</item>
+        <item>Então e a Água?</item>
+        <item>Sobre o dia</item>
+        <item>Tenho cede e você?</item>
+        <item>A cede pode sumir se você?</item>
+        <item>Água Água Água</item>
+        <item>Não e carnaval…</item>
+        <item>Água e água</item>
+        <item>So sei que quero Água.</item>
+        <item>Água sua linda.</item>
+        <item>Água sexy</item>
+        <item>Água geladinha</item>
+    </string-array>
+    <string-array name="mensagem_aleatorias">
+        <item>Sabia que beber água faz bem? Então está esperando o que, corno desidratado não e legal.</item>
+        <item>Já bebeu água hoje? Aposto que não, então bora beber água?</item>
+        <item>O que você está esperando para beber água? Ela não vai vir em você assim não.</item>
+        <item>Bora mexer essas pernas e ir atrás de um copo d\'água?</item>
+        <item>O dia só vai ser bom, quando você beber um pouco de água!!!</item>
+        <item>Está esperando água cair do céu? Bora ir atrás meu fi, seu corpo não vai hidratar sozinho não.</item>
+        <item>Sem água você não sobe level. Bora beber? kkkkkkkk</item>
+        <item>Sim, tenho várias mensagens falando para você beber água, e ainda não foi?</item>
+        <item>Chorar pela morena desidrata, então vamos beber um pouco d\'água</item>
+        <item>Minecraft só não hidrata, jogar com uma jarra de água e o ideal. </item>
+        <item>A água é a coisa mais barata que existe.</item>
+        <item>A água lava todos os males dos mortais.</item>
+        <item>A água é a única bebida para um homem sábio.</item>
+        <item>Se se tem de beber alguma coisa, que seja a água.</item>
+        <item>Já pegou a pessoa que gosta é a Água bebeu?</item>
+        <item>Só de jogo o homem não vive, e sim de jogo e água?</item>
+        <item>Só mensagens aleatórias falando para você beber um pouco de água.</item>
+        <item>Eai, está esperando o que para beber água?</item>
+        <item>Quando você estiver com sede, eu estarei-la.</item>
+        <item>Um pouco de água te ajuda a fazer a Rank.</item>
+        <item>Você pensa que cachaça é água?\nCachaça não é água não\nCachaça vem do alambique\nE água vem do ribeirão.</item>
+        <item>Não ta chovendo, mas você pode beber água</item>
+        <item>Você e importante para mim, já bebeu água hoje?</item>
+        <item>Sim, estou avisando de 30 em 30 min, que você tem que beber água.</item>
+        <item>Sou seu rim, e agradeço se você beber um copo d\'água.</item>
+        <item>Pode me faltar o amor\n(Disto eu até acho graça) \nSó não quero que me falte\nA danada da Água.\nImaginou outra coisa neh.</item>
+        <item>Até o mar tem mais água que seu corpo, bora ganhar do mar?</item>
+        <item>Nessa vida não nós podemos faltar a água.</item>
+        <item>Ops, são %s, já bebeu água?</item>
+        <item>Eu sei o que você mais quer, algo de outro mundo, sim um copo d\'água.</item>
+        <item>Sim eu sei que horas são: %s, e faço uma aposta, agora você não bebeu água.</item>
+        <item>Olha o meliante sem beber água.</item>
+        <item>Olha eu sei que sou uma notificação gostosa, que você ama passar o dedo.\n\n\n
+            Mas beber água e muito melhor.</item>
+        <item>A cada notificação que vejo, mais sede eu tenho.</item>
+        <item>Vamos ajudar o desenvolvedor, e beber um copo d\'água em sua homenagem.</item>
+        <item>Melhor parte da vida é?\n\n\n Beber água, para hidratar esse corpo sexy.</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

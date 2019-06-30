@@ -7,8 +7,8 @@ android {
         applicationId "br.com.riseline.cleiton.esports.diabticswater"
         minSdkVersion 21
         targetSdkVersion 28
-        versionCode 2
-        versionName "DW_0.0.2_29-06-19_IO"
+        versionCode 3
+        versionName "DW_0.0.3_30-06-19_IO"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled = true
         vectorDrawables.useSupportLibrary = true
@@ -25,14 +25,34 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+    //Google Layout Design
     implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.material:material:1.0.0'
     implementation 'androidx.vectordrawable:vectordrawable:1.0.1'
+    implementation 'com.google.android.play:core:1.6.1'
+
+    implementation 'com.jakewharton:butterknife:10.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
+
+    implementation 'com.etebarian:meow-bottom-navigation:1.0.4'
+
     testImplementation 'junit:junit:4.12'
+
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
