@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- Tamanhos padroes para texto. -->
+    <dimen name="texto">20sp</dimen>
+    <dimen name="texto_list">16sp</dimen>
+    <dimen name="titulo">22sp</dimen>
+
+</resources>

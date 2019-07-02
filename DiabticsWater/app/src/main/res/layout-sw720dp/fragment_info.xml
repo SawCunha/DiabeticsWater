@@ -25,7 +25,8 @@
             android:text="@string/app_desenvolvido_para_lembra_nosso_amigo_rafael_de_beber_agua_idealizado_pelo_grupo_ncleiton_e_sports"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryTextColor"
-            android:textSize="24sp"
+
+            android:textSize="@dimen/texto"
             android:textStyle="normal|bold|italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.0"

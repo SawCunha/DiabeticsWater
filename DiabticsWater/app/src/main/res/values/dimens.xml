@@ -1,0 +1,6 @@
+<resources>
+    <!-- Tamanhos padroes para texto. -->
+    <dimen name="texto">12sp</dimen>
+    <dimen name="texto_list">12sp</dimen>
+    <dimen name="titulo">14sp</dimen>
+</resources>

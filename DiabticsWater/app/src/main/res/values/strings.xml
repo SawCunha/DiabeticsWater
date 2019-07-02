@@ -4,7 +4,7 @@
     <string name="noti_channel_default">Primary Channel</string>
     <string name="noti_channel_second">Secondary Channel</string>
 
-    <string name="introducao">Eu vou estar aqui para te lembra das 1001 coisas que voce esquece\n, está preparado?\n
+    <string name="introducao">Oiii, sou a SiSi,\n eu vou estar aqui para te lembra das 1001 coisas que você esquece,\n\n está preparado?\n
     E sim, toda vez que você abrir o App,\n\neu vou estar na barra de notificação te esperando\n\n
         para passar o dedo em mim…</string>
     <string name="app_desenvolvido_para_lembra_nosso_amigo_rafael_de_beber_agua_idealizado_pelo_grupo_ncleiton_e_sports">App Desenvolvido para lembra nosso Amigo Rafael de beber agua, Idealizado pelo Grupo:  Cleiton E-sports</string>
@@ -67,5 +67,17 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="sobre_sisi">Estou aqui para lhe ajudar a beber Água. Isso mesmo. Nós proximos cards, você vai saber um pouco sobre minha funcionalidades.</string>
+    <string name="sou_sisi">Eu sou a SiSi</string>
+    <string name="novidades">Novidades</string>
+    <string name="mais_novidades">Mais novidades</string>
+    <string name="nao_para_novidade">E as novidades não Para!!!</string>
+    <string name="e_so_isso">Por enquanto e so isso.</string>
+    <string name="msg_1">Em breve vou ser capaz de Contar quantos litros d\'água você bebe por dia. Além das notificações</string>
+    <string name="msg_2">Além disso, serei capaz de fazer cálculos e gráficos do seu consumo. Para mostrar a sua evolução.</string>
+    <string name="msg_3">O melhor de tudo, não terei anúncio, fazer o bem a uma pessoa e minha maior recompensa.</string>
+    <string name="msg_4">Ainda estou em desenvolvimento, mas quero sua ajuda para eu evoluir também. Essa e a última página, ai vou começar a te notificar, o emoção.</string>
+    <string name="pular">Pular</string>
 
 </resources>
